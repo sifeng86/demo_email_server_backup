@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Terminal 1 Assessment.</title>
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<style>
+.bd-block {
+
+    padding: 5rem;
+    margin-right: 0;
+    margin-left: 0;
+    border-width: .5rem;
+
+}
+</style>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+<script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</head>
+<body>
+
+<div class="bd-block">
+<form action="https://send-mail-t1-python.herokuapp.com/" method="post">
+  <div class="form-group">
+    <label>Email address</label>
+    <input type="email" class="form-control" name="email" placeholder="name@example.com" required>
+  </div>
+  <div class="form-group">
+    <label>Primary Email Server</label>
+    <select class="form-control" name="emailserver" data-toggle="tooltip" data-placement="top" title="Set the Primary Email Service to Online or Offline">
+      <option selected value="200">Online</option>
+      <option value="400">Offline</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label>Embed Information</label>
+    <textarea name="message" class="form-control"  rows="6" readonly>Once upon a time there was an mother pig who had three little pigs and not enough food to feed them. So when they were old enough, she sent them out into the world to seek their fortunes.
+The first little pig was very lazy. He didn't want to work at all and he built his house out of straw. The second little pig worked a little bit harder but he was somewhat lazy too and he built his house out of sticks. Then, they sang and danced and played together the rest of the day.
+The third little pig worked hard all day and built his house with bricks. It was a sturdy house complete with a fine fireplace and chimney. It looked like it could withstand the strongest winds.
+The next day, a wolf happened to pass by the lane where the three little pigs lived; and he saw the straw house, and he smelled the pig inside. He thought the pig would make a mighty fine meal and his mouth began to water.
+    </textarea>
+  </div>
+  <div class="form-group">
+    <input type="submit" value="Send Email" class="form-control btn btn-primary">
+  </div>
+</form>
+</div>
+
+
+</body>
+</html>
