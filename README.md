@@ -28,4 +28,11 @@ The demo page is a simulation of email server online status and offline status.
 - User input an email address
 - The dropdown option is to simulate the primary email server is online or offline
 - Concept: if the primary email server goes down (not return 200) then the secondary email server will send the emails.
+- The email subject will show that where the sender come from.
+- Please check the email in the spam folder if not in inbox.
 
+### Technical Part
+
+- The page coded by html & css
+- Email API is using python and php
+- Hosting two apps on heroku, 1 for php and 1 for python
