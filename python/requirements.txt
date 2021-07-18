@@ -1,6 +1,6 @@
 Flask==0.12.2
 Flask-Cors==3.0.3
-pyOpenSSL==17.0.0
+pyOpenSSL==17.5.0
 requests==2.20.0
 sendgrid==6.1.0
 gunicorn==19.9.0
