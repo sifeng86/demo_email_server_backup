@@ -1,3 +1,4 @@
+
 https://github.com/uber-archive/coding-challenge-tools/blob/master/coding_challenge.md
 
 ## Email Service
@@ -26,6 +27,8 @@ Create a service that accepts the necessary information and sends emails. It sho
 5) It should be automatic in production stage.
 
 ### Demo Page
+*Note: demo site might be failed in somedays, because it will not get maintenance anymore*
+
 https://send-mail-t1-php.herokuapp.com/
 
 The demo page is a simulation of email server online status and offline status.
